@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>templating options</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <h1>EJS</h1>
+    <h4>Embedded JavaScript</h4>
+
+    <pre>
+
+
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title>&lt;%= title %&gt;&lt;/title&gt;
+      &lt;link rel='stylesheet' href='/stylesheets/style.css' /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1><%= title %&gt;&lt;/h1&gt;
+      &lt;p>Welcome to &lt;%= title %&gt;&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+
+
+</pre>
+    <h1>HBS</h1>
+    <h4>Handlebars</h4>
+    <pre>
+
+
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&lt;{{title}}&lt;/title&gt;
+      &lt;link rel='stylesheet' href='/stylesheets/style.css' /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      {{{body}}}
+    &lt;/body&gt;
+  &lt;/html&gt;
+
+
+</pre>
+    <h1>Pug</h1>
+    <h4>Formerly Known as "Jade"</h4>
+    <pre>
+
+
+  doctype html
+  html
+    head
+      title= title
+      link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+      block content
+    </pre>
+<a href="#">Express Generator</a>
+<a href="#">Template Comparison</a>
+<a href="#">EJS</a>
+<a href="#">HBS</a>
+<a href="#">Pug</a>
+<script type="text/javascript" src="main.js">
+
+</script>
+
+  </div>
+
+</body>
+
+</html>
