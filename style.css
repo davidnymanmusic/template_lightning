@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
-
 body {
   background-color: rgb(89, 89, 89);
   font-family: 'Ubuntu Mono', monospace;
@@ -10,6 +9,15 @@ h1 {
   font-size: 2.5em;
   text-align: center;
 }
+
+#title {
+  font-size: 2.8em;
+  text-decoration: underline;
+  color: rgb(116, 250, 166);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 h4 {
   color: rgb(252, 255, 187);
   font-style: italic;
@@ -22,7 +30,7 @@ pre {
   margin: 0 auto;
   padding-left: 15%;
   border: 3px solid rgb(255, 255, 255);
-  font-size: 1.3em;
+  font-size: 1.7em;
   background-color: rgb(57, 57, 57);
   transition: 1.2s;
 }
@@ -38,4 +46,22 @@ pre:hover {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 10%;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+p {
+  color: rgb(140, 231, 201);
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+a {
+  color: rgb(140, 231, 201);
 }
